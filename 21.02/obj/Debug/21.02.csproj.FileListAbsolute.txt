@@ -1,0 +1,14 @@
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\bin\Debug\21.02.exe.config
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\bin\Debug\21.02.exe
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\bin\Debug\21.02.pdb
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\bin\Debug\ClassLib.dll
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\bin\Debug\InterfaceUtils.dll
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\bin\Debug\ClassLib.pdb
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\bin\Debug\InterfaceUtils.pdb
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\obj\Debug\21.02.csprojResolveAssemblyReference.cache
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\obj\Debug\_21._02.MainWindow.resources
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\obj\Debug\_21._02.Properties.Resources.resources
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\obj\Debug\21.02.csproj.GenerateResource.Cache
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\obj\Debug\21.02.csproj.CoreCompileInputs.cache
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\obj\Debug\21.02.exe
+C:\2 курс\ЯиСП\1 аттестация\Attestation1\21.02\obj\Debug\21.02.pdb

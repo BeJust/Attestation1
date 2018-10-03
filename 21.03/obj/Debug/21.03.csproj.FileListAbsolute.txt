@@ -1,0 +1,15 @@
+C:\2 курс\ЯиСП\1 аттестация\21.03\obj\Debug\21.03.csprojAssemblyReference.cache
+C:\2 курс\ЯиСП\1 аттестация\21.03\obj\Debug\_21._03.Properties.Resources.resources
+C:\2 курс\ЯиСП\1 аттестация\21.03\obj\Debug\21.03.csproj.GenerateResource.cache
+C:\2 курс\ЯиСП\1 аттестация\21.03\obj\Debug\21.03.csproj.CoreCompileInputs.cache
+C:\2 курс\ЯиСП\1 аттестация\21.03\obj\Debug\_21._03.MainForm.resources
+C:\2 курс\ЯиСП\1 аттестация\21.03\bin\Debug\21.03.exe.config
+C:\2 курс\ЯиСП\1 аттестация\21.03\bin\Debug\21.03.exe
+C:\2 курс\ЯиСП\1 аттестация\21.03\bin\Debug\21.03.pdb
+C:\2 курс\ЯиСП\1 аттестация\21.03\bin\Debug\ClassLib.dll
+C:\2 курс\ЯиСП\1 аттестация\21.03\bin\Debug\InterfaceUtils.dll
+C:\2 курс\ЯиСП\1 аттестация\21.03\bin\Debug\ClassLib.pdb
+C:\2 курс\ЯиСП\1 аттестация\21.03\bin\Debug\InterfaceUtils.pdb
+C:\2 курс\ЯиСП\1 аттестация\21.03\obj\Debug\21.03.csproj.CopyComplete
+C:\2 курс\ЯиСП\1 аттестация\21.03\obj\Debug\21.03.exe
+C:\2 курс\ЯиСП\1 аттестация\21.03\obj\Debug\21.03.pdb

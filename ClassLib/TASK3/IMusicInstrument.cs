@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClassLib.TASK3
 {
-    interface IMusicInstrument
+    public interface IMusicInstrument
     {
+        string Name { get; set; }
 
+        string OutputName();
+        string DefineTypeOfInstrument();
     }
 }

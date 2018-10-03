@@ -7,7 +7,7 @@
     <ProjectGuid>{76EEFB9D-5BB8-4B5A-B578-C1573224ADC2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>_21._03</RootNamespace>
-    <AssemblyName>_21._03</AssemblyName>
+    <AssemblyName>21.03</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +78,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLib\ClassLib.csproj">
+      <Project>{92312b9b-a01a-4e9f-a9e0-98a8146b0f00}</Project>
+      <Name>ClassLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InterfaceUtils\InterfaceUtils.csproj">
+      <Project>{12c0b781-07b0-48cd-8029-4f2665b3433c}</Project>
+      <Name>InterfaceUtils</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

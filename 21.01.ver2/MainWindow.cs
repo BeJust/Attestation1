@@ -126,5 +126,10 @@ namespace _21._01.ver2
         {
             DataGridUtils.CarriageListToGrid(dataGrid, train.CarriagesConnected);
         }
+
+        private void dataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

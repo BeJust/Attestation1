@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.dataGrid = new System.Windows.Forms.DataGridView();
+            this.carrNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PassNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LuggAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Comfort = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.carrNumber_txt = new System.Windows.Forms.TextBox();
             this.addCarriageHeading = new System.Windows.Forms.Label();
             this.carrNumber_lbl = new System.Windows.Forms.Label();
@@ -59,10 +63,6 @@
             this.sortCarriages_btn = new System.Windows.Forms.Button();
             this.printCarriageListHeading = new System.Windows.Forms.Label();
             this.showCarriageList_btn = new System.Windows.Forms.Button();
-            this.carrNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PassNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LuggAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Comfort = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,6 +78,27 @@
             this.dataGrid.Name = "dataGrid";
             this.dataGrid.Size = new System.Drawing.Size(617, 632);
             this.dataGrid.TabIndex = 0;
+            this.dataGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGrid_CellContentClick);
+            // 
+            // carrNumber
+            // 
+            this.carrNumber.HeaderText = "Номер";
+            this.carrNumber.Name = "carrNumber";
+            // 
+            // PassNumber
+            // 
+            this.PassNumber.HeaderText = "Кол-во пассажиров";
+            this.PassNumber.Name = "PassNumber";
+            // 
+            // LuggAmount
+            // 
+            this.LuggAmount.HeaderText = "Кол-во багажа";
+            this.LuggAmount.Name = "LuggAmount";
+            // 
+            // Comfort
+            // 
+            this.Comfort.HeaderText = "Уровень комфорта(1-4)";
+            this.Comfort.Name = "Comfort";
             // 
             // carrNumber_txt
             // 
@@ -362,26 +383,6 @@
             this.showCarriageList_btn.Text = "Вывести полный список вагонов";
             this.showCarriageList_btn.UseVisualStyleBackColor = true;
             this.showCarriageList_btn.Click += new System.EventHandler(this.showCarriageList_btn_Click);
-            // 
-            // carrNumber
-            // 
-            this.carrNumber.HeaderText = "Номер";
-            this.carrNumber.Name = "carrNumber";
-            // 
-            // PassNumber
-            // 
-            this.PassNumber.HeaderText = "Кол-во пассажиров";
-            this.PassNumber.Name = "PassNumber";
-            // 
-            // LuggAmount
-            // 
-            this.LuggAmount.HeaderText = "Кол-во багажа";
-            this.LuggAmount.Name = "LuggAmount";
-            // 
-            // Comfort
-            // 
-            this.Comfort.HeaderText = "Уровень комфорта(1-4)";
-            this.Comfort.Name = "Comfort";
             // 
             // MainWindow
             // 

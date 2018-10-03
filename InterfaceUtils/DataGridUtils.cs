@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
 using ClassLib;
+using ClassLib.TASK3;
 
 namespace InterfaceUtils
 {
@@ -346,6 +347,28 @@ namespace InterfaceUtils
         public static T[,] GridToArray2<T>(DataGridView dgv)
         {
             return (T[,])GridToArrayInner<T>(dgv, true);
+        }
+        
+        public static void GuitarToGrid(DataGridView dgv, List<IMusicInstrument> guitars)
+        {
+            
+            int rowCount = guitars.Count,
+                colCount = 10;
+ 
+            dgv.RowCount = rowCount;
+            dgv.ColumnCount = colCount;
+       
+            for (int i = 0; i < guitars.Count; i++)
+            {
+                dgv.Rows[i].HeaderCell.Value = string.Format(" {0} ", i);
+                dgv[0, i].Value = ((ElectroGuitar)guitars[i]).Name;
+                dgv[1, i].Value = ((ElectroGuitar)guitars[i]).TypeOfTheGuitar;
+                dgv[2, i].Value = ((ElectroGuitar)guitars[i]).Price;
+                dgv[3, i].Value = ((ElectroGuitar)guitars[i]).Color;
+                dgv[4, i].Value = ((ElectroGuitar)guitars[i]).PossibleLoudness;
+
+            }
+            
         }
     }
 }

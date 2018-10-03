@@ -22,24 +22,19 @@ namespace ClassLib
 
         public override double CalculateQuality()
         {
-            double quality;
             if (Location)
             {
-                quality = 2 * ((FlatsNumber) + 2 * (2018 - YearOfBuilding));
-                this.Quality = quality;
-                return quality;
+                return 2 * base.CalculateQuality();
             }
             else
             {
-                quality = ((FlatsNumber) + 2 * (2018 - YearOfBuilding))/2;
-                this.Quality = quality;
-                return quality;
+                return base.CalculateQuality() / 2;
             }
         }
         public override string OutputInfo()
         {
             string location = (this.Location) ? "центр" : "окраина";
-            return  String.Format("Номер дома: {0}; Кол-во квартир: {1}; Год постройки: {2}; Местонахождение: {3}; Качество: {4};", this.HouseNumber, this.FlatsNumber, this.YearOfBuilding, location, this.Quality);
+            return  String.Format("Номер дома: {0}; Кол-во квартир: {1}; Год постройки: {2}; Местонахождение: {3}; Качество: {4};", this.HouseNumber, this.FlatsNumber, this.YearOfBuilding, location, this.GetQ());
         }
     }
 }

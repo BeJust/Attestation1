@@ -6,3 +6,12 @@ C:\2 курс\ЯиСП\1 аттестация\Attestation1\InterfaceUtils\obj\De
 C:\2 курс\ЯиСП\1 аттестация\Attestation1\InterfaceUtils\obj\Debug\InterfaceUtils.pdb
 C:\2 курс\ЯиСП\1 аттестация\Attestation1\InterfaceUtils\bin\Debug\ClassLib.dll
 C:\2 курс\ЯиСП\1 аттестация\Attestation1\InterfaceUtils\bin\Debug\ClassLib.pdb
+C:\2 курс\ЯиСП\1 аттестация\InterfaceUtils\bin\Debug\InterfaceUtils.dll
+C:\2 курс\ЯиСП\1 аттестация\InterfaceUtils\bin\Debug\InterfaceUtils.pdb
+C:\2 курс\ЯиСП\1 аттестация\InterfaceUtils\bin\Debug\ClassLib.dll
+C:\2 курс\ЯиСП\1 аттестация\InterfaceUtils\bin\Debug\ClassLib.pdb
+C:\2 курс\ЯиСП\1 аттестация\InterfaceUtils\obj\Debug\InterfaceUtils.csprojAssemblyReference.cache
+C:\2 курс\ЯиСП\1 аттестация\InterfaceUtils\obj\Debug\InterfaceUtils.csproj.CoreCompileInputs.cache
+C:\2 курс\ЯиСП\1 аттестация\InterfaceUtils\obj\Debug\InterfaceUtils.csproj.CopyComplete
+C:\2 курс\ЯиСП\1 аттестация\InterfaceUtils\obj\Debug\InterfaceUtils.dll
+C:\2 курс\ЯиСП\1 аттестация\InterfaceUtils\obj\Debug\InterfaceUtils.pdb

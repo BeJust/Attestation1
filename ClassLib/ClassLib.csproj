@@ -40,15 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdvancedHouse.cs" />
-    <Compile Include="Carriage.cs" />
-    <Compile Include="EconomCarriage.cs" />
-    <Compile Include="ExpensiveCarriage.cs" />
-    <Compile Include="House.cs" />
-    <Compile Include="LuxuryCarriage.cs" />
-    <Compile Include="MiddleCarriage.cs" />
+    <Compile Include="TASK2\AdvancedHouse.cs" />
+    <Compile Include="TASK1\Carriage.cs" />
+    <Compile Include="TASK1\EconomCarriage.cs" />
+    <Compile Include="TASK1\ExpensiveCarriage.cs" />
+    <Compile Include="TASK2\House.cs" />
+    <Compile Include="TASK1\LuxuryCarriage.cs" />
+    <Compile Include="TASK1\MiddleCarriage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Train.cs" />
+    <Compile Include="TASK1\Train.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TASK3\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -11,7 +11,7 @@ namespace ClassLib
         public int HouseNumber { get; set; }
         public int FlatsNumber { get; set; }
         public int YearOfBuilding { get; set; }
-        public double Quality { get; set; }
+       
 
 
         public House(int houseNum, int flatsNum, int yearOfBuild)
@@ -21,16 +21,19 @@ namespace ClassLib
             this.YearOfBuilding = yearOfBuild;
         }
 
+        public double GetQ()
+        {
+            return CalculateQuality();
+        }
         public virtual double CalculateQuality()
         {
             double quality = ((FlatsNumber) + 2 * (2018 - YearOfBuilding));
-            this.Quality = quality;
             return quality;
         }
 
         public virtual string OutputInfo()
         {
-            string result = String.Format("Номер дома: {0}; Кол-во квартир: {1}; Год постройки: {2}; Качество: {3};", this.HouseNumber, this.FlatsNumber, this.YearOfBuilding, this.Quality);
+            string result = String.Format("Номер дома: {0}; Кол-во квартир: {1}; Год постройки: {2}; Качество: {3};", this.HouseNumber, this.FlatsNumber, this.YearOfBuilding, GetQ());
             return result;
         }
     }

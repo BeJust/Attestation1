@@ -360,7 +360,7 @@ namespace InterfaceUtils
        
             for (int i = 0; i < guitars.Count; i++)
             {
-                dgv.Rows[i].HeaderCell.Value = string.Format(" {0} ", i);
+                dgv.Rows[i].HeaderCell.Value = string.Format("{0} ", i);
                 dgv[0, i].Value = ((ElectroGuitar)guitars[i]).Name;
                 dgv[1, i].Value = ((ElectroGuitar)guitars[i]).TypeOfTheGuitar;
                 dgv[2, i].Value = ((ElectroGuitar)guitars[i]).Price;
